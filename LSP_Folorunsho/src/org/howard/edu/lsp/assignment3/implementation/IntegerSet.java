@@ -42,7 +42,7 @@ public class IntegerSet {
 	 * Returns true if the set is empty, false otherwise
 	 * @return true if the set is empty, false otherwise
 	 */
-	boolean isEmpty() {
+	public boolean isEmpty() {
 		return set.size() == 0;
 	}; 
 	
@@ -120,7 +120,7 @@ public class IntegerSet {
 		if(isEmpty()) {
 			throw new IntegerSetException("The integer set is empty");
 		}else if(!set.contains(item)) {
-			throw new IntegerSetException("The does not exist in this set");
+			throw new IntegerSetException("This does not exist in this set");
 		}
 		set.remove(Integer.valueOf(item));
 	};  //Throws aIntegerSetException of the set is empty
