@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.howard.edu.lsp.assignment1"},{"l":"org.howard.edu.lsp.assignment2"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.howard.edu.lsp.assignment1"},{"l":"org.howard.edu.lsp.assignment2"},{"l":"org.howard.edu.lsp.assignment3.implementation"},{"l":"org.howard.edu.lsp.assignment3.junit"},{"l":"org.howard.edu.lsp.assignment3.test"},{"l":"org.howard.edu.lsp.assignment7"},{"l":"org.howard.edu.lsp.assignment7.junit"}];updateSearchResults();

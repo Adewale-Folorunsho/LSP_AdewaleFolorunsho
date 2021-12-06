@@ -3,9 +3,15 @@ package org.howard.edu.lsp.assignment7;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * representation of the polynomial class
+ */
 public class Polynomial {
 	private ArrayList<Term> polynomialList = new ArrayList<Term>();
 	
+	/**
+	 * insert a term into the polynomial
+	 */
 	public void insertTerm(Term term) {
 		int termExponent = term.getExponent();
 		for( int i = 0; i < polynomialList.size(); i++) {
@@ -17,6 +23,10 @@ public class Polynomial {
 		polynomialList.add(term);
 	}
 	
+	/**
+	 * get the value of the polynomial as a string
+	 * @return value of the polynomial as a string
+	 */
 	public String toString() {
 		String polynomialValue = "";
 		String termValue = "";
@@ -33,6 +43,9 @@ public class Polynomial {
 		return polynomialValue;
 	}
 	
+	/**
+	 * delete a term from a polynomial
+	 */
 	public void delete(int coefficient, int exponent) {
 		String termValue;
 		if (exponent == 0) {
@@ -53,6 +66,10 @@ public class Polynomial {
 		System.out.println("This term, " + termValue + ", does not exist in this polynomial");
 	}
 	
+	/**
+	 * get the value of the product of the polynomial as string
+	 * @return value of the product
+	 */
 	public String product() {
 		String termValue;
 		int coefficient = 1;
@@ -76,6 +93,10 @@ public class Polynomial {
 		return termValue;
 	}
 	
+	/**
+	 * reverse the order of the polynomial
+	 * @return reversed polynomial as a string
+	 */
 	public String reverse() {
 	
 		Collections.reverse(polynomialList);

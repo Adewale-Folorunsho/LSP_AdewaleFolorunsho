@@ -21,7 +21,9 @@ class PolynomialTest {
 	Scanner myReader;
 	String some = "";
 	
-	
+	/**
+	 * get the data.txt file
+	 */
 	PolynomialTest(){
 		File myObj = new File("src/org/howard/edu/lsp/assignment7/junit/data/data.txt");
 		try {
@@ -31,6 +33,9 @@ class PolynomialTest {
 		}
 	}
 	
+	/**
+	 * test for all the functions in the polynomial class
+	 */
 	
 	@Test
 	@DisplayName("Test for all functions")
